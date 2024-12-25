@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    letter-spacing: -0.01em;
+}
+
+html,
+body {
+  background-color: black;
+  color: #fff;
+  font-size: 16px;
+  font-style: italic;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+button {
+    background: rgba(0,0,0,0);
+    border: none;
+}
+
+#intro {
+    transition: opacity 3000ms;
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+}
+
+#subtitle {
+  position: absolute;
+  transition: opacity 500ms;
+  font-size: 2rem;
+  bottom: 2rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+}
